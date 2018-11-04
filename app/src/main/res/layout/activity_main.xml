@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aada3dda"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="180dp"
+        android:text="0"
+        android:background="#aa202020"
+        android:textColor="#12be9b"
+        android:textSize="80dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast!!!"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="#aa2eda1b"
+        android:id="@+id/toast" />
+
+    <Button
+        android:id="@+id/Plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="180dp"
+        android:layout_marginLeft="100dp"
+        android:text="INCREMENT"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:background="#aaec1346"
+        android:textColor="#aaecd109"
+        />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="100dp"
+        android:text="DECREMENT"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:background="#aaec1346"
+        android:textColor="#aaf1dc20"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="140dp"
+        android:text="RESET"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:background="#aaec1346"
+        android:textColor="#aaefd826"
+        />
+
+
+</RelativeLayout>
